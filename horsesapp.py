@@ -28,6 +28,11 @@ cd /content/static
 
 cd ..
 '''
+
+heroku plugins:install  https://github.com/heroku-repo.git
+
+heroku repo:purge_cache -a horse-human-prediction-api
+    
 import flask
 from flask import Flask, render_template, request
 #from flask_ngrok import run_with_ngrok
