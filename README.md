@@ -2,4 +2,3 @@
 Horse or Human Prediction Convnet Model Deployment using Flask and Heroku
 
 
-Unsucessful Searching for the solution
